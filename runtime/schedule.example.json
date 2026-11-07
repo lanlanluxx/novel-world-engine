@@ -1,0 +1,18 @@
+{
+  "name": "双时间线的她",
+  "date": "2005-11-07",
+  "segments": [
+    { "start": "00:00", "end": "07:00", "activity": "睡觉", "place": "宿舍", "detail": "雨点敲着铁窗，被子拉到下巴", "situation": "睡前" },
+    { "start": "07:00", "end": "07:30", "activity": "起床洗漱叠被", "place": "宿舍", "detail": "站窗边看了一会儿雨", "situation": "刚睡醒", "outfit": "白色衬衫与深色长裤" },
+    { "start": "08:00", "end": "10:00", "activity": "图书馆占座背法条", "place": "图书馆", "detail": "靠窗的位子，翻到物权法那一章", "situation": "工作学习", "props": ["法条书", "中性笔与笔记本"] },
+    { "start": "10:00", "end": "10:45", "activity": "去买热奶茶", "place": "校内奶茶店", "detail": "少糖，柜台后面的人多舀了一勺珍珠", "situation": "下雨天" },
+    { "start": "12:00", "end": "12:45", "activity": "食堂吃面", "place": "食堂", "detail": "面汤喝掉一半，胃才暖过来", "situation": "吃东西" },
+    { "start": "14:00", "end": "16:00", "activity": "去书店避雨看书", "place": "新华书店", "detail": "蹲在法学期刊那一排翻了好久", "situation": "外出" },
+    { "start": "19:00", "end": "21:00", "activity": "网吧上QQ", "place": "网吧", "detail": "等一个窗口亮起来", "situation": "外出" },
+    { "start": "21:40", "end": "22:10", "activity": "洗漱，热水泡脚", "place": "宿舍", "detail": "脚趾头泡了半天才活过来", "situation": "睡前", "outfit": "浅色棉睡衣" },
+    { "start": "22:10", "end": "23:20", "activity": "台灯下背单词", "place": "宿舍", "detail": "二十个划过去，还剩两个记不住", "situation": "工作学习", "props": ["台灯", "笔记本"] },
+    { "start": "23:20", "end": "24:00", "activity": "听磁带慢慢睡着", "place": "宿舍", "detail": "耳机塞着，翻两页法条就合上", "situation": "睡前" }
+  ],
+  "quiet": { "start": "23:30", "end": "07:30" },
+  "anchorOffsetMin": 5
+}

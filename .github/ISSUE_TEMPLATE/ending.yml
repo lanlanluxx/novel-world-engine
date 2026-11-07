@@ -1,0 +1,60 @@
+name: 我想要的结局
+description: 说出你想改的那本书（或那个世界）和你的结局方案
+title: "[结局] "
+labels: ["ending"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        先说清楚：**这里不放原著内容**。请不要贴小说正文，也不要贴别人作品的完整设定。
+        你只需要说三件事：什么样的世界、谁、你想要的结局。
+  - type: textarea
+    id: world
+    attributes:
+      label: 世界
+      description: 一本书名、一个剧、或者你自己写的设定都行。一句说清是什么世界。
+      placeholder: 例：2007 年南方小县城，一个复读生回到高三，想救回姐姐
+    validations:
+      required: true
+  - type: textarea
+    id: characters
+    attributes:
+      label: 角色（2–5 个）
+      description: 只写名字、身份、一句话性格。不要贴原文台词。
+      placeholder: 林小满：代课老师，嘴硬护弟弟
+    validations:
+      required: true
+  - type: textarea
+    id: ending
+    attributes:
+      label: 你想要的结局
+      description: 一句话。别写过程。
+      placeholder: 例：她活下来，但代价是家里搬走
+    validations:
+      required: true
+  - type: textarea
+    id: nogo
+    attributes:
+      label: 你绝对不能接受的
+      description: 防止 AI 走歪，写 1–3 条。
+      placeholder: 例：不要靠预知发财、不要开后宫
+    validations:
+      required: false
+  - type: dropdown
+    id: role
+    attributes:
+      label: 你想怎么进去
+      options:
+        - 我自己当主角
+        - 我当旁观者/导演
+        - 我当一个新角色
+        - 还没想好
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: 确认
+      options:
+        - label: 我知道这个仓库不提供原著内容，设定由我自己负责
+          required: true

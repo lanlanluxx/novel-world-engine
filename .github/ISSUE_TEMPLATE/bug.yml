@@ -1,0 +1,37 @@
+name: 问题反馈
+description: schema / prompts / runtime 有问题，或者结果是坏的
+title: "[问题] "
+labels: ["bug"]
+body:
+  - type: dropdown
+    id: part
+    attributes:
+      label: 哪一部分
+      options:
+        - schema（字段定义）
+        - prompts（提示词）
+        - runtime（日程/记忆）
+        - demo
+        - 文档/其他
+    validations:
+      required: true
+  - type: textarea
+    id: expect
+    attributes:
+      label: 你以为会怎样
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: 实际怎样
+      description: 给出输入、输出，或命令与报错。能贴一条最小复现最好。
+    validations:
+      required: true
+  - type: input
+    id: env
+    attributes:
+      label: 环境
+      placeholder: 例：Windows 11 / Node 20 / 用的是哪个模型
+    validations:
+      required: false
