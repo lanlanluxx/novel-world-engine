@@ -1,0 +1,6 @@
+# 本地数据（世界文件里有你的设定，可能含隐私，别提交）
+local/
+*.local.md
+*.key
+.env
+.DS_Store
