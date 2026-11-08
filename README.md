@@ -4,7 +4,7 @@
 > 不是去养一个人，是去改一个结局。
 > 角色有自己的日程、会记事、会在聊天窗口里回你；结局不是选项，是你定的。
 
-> 为什么做这个：[docs/why.md](docs/why.md)　·　谁来照看它：[docs/caretaker.md](docs/caretaker.md)
+> 为什么做这个：[docs/why.md](docs/why.md)　·　谁来照看它（管家）：[docs/steward.md](docs/steward.md)
 
 ## 这是什么
 
